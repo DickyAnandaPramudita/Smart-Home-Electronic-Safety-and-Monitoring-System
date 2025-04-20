@@ -1,7 +1,8 @@
 # # 🏠 Smart-Home Electronic Safety and Monitoring System
 
-Sistem **Smart-Home Electronic Safety and Monitoring System** adalah solusi otomatisasi rumah berbasis mikrokontroler yang dirancang untuk meningkatkan keamanan dan kenyamanan penghuni. Sistem ini memantau kondisi rumah secara real-time serta memberikan respons terhadap situasi darurat seperti kebocoran gas, suhu tinggi, atau kehadiran orang asing.
+Proyek ini bertujuan untuk mengembangkan sistem automasi untuk Smart Home, menggunakan komponen utama seperti Arduino Mega, ACS712, ZMPT1010B dan berbagai sensor. Arduino mega bertindak sebagai mikroprosesor utama yang mengontrol komunikasi antar sensor dan perangkat, memungkinkan pemantauan dan pengontrolan secara real-time melalui jaringan UART TTL. Sistem ini dilengkapi dengan Auto cutt-off untuk menjaga alat elektronik rumah dari fluktuasi tegangan jala-jala PLN.
 
+Untuk memantau konsumsi energi, digunakan sensor arus ACS712 dan sensor tegangan ZMPT101B yang secara akurat mengukur penggunaan arus listrik dan tegangan pada berbagai perangkat. Selain itu, Relay SPDT berfungsi sebagai saklar otomatis yang memungkinkan pengendalian perangkat elektronik seperti lampu.
 ## 📌 Fitur Utama
 
 - 🔥 **Deteksi Suhu dan Kebakaran**: Menggunakan sensor suhu (seperti DHT22/LM35) untuk mendeteksi suhu abnormal yang berpotensi menyebabkan kebakaran.
